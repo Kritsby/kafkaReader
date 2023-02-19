@@ -29,6 +29,14 @@ services:
       PGPASSWORD: hack-test
       PGHOST: postgres
       PGPORT: 5432
+      SERVER:
+      MECHANISM:
+      PROTOCOL:
+      USERNAME:
+      PASSWORD:
+      CAFILE: ./ca.pem
+      GROUP:
+      TOPICS:
     depends_on:
       - postgres
     command:
